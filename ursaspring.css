@@ -1,6 +1,6 @@
 .ubox { 
 width:380px;
-margin-top: -30px;
+margin-top: 80px;
 margin-bottom: 30px;
 padding:30px; 
 background:#ffffff;  
@@ -18,7 +18,6 @@ padding: 20px 20px 28px; }
 .uicon { 
  margin-top:40px; 
 float: center; 
-shape-outside: circle(50%)
 -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,1,1)), to(rgba(0,0,0,0))); 
 position:relative; 
 z-index:1;
