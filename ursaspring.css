@@ -78,13 +78,17 @@ line-height:270%;}
 
 #freya {
  --govor: #95B7F2; --ikona: #315587; --ozadje: url(https://i.pinimg.com/originals/b8/9b/b3/b89bb307b9e35b5dde8e0f07d35ffa49.gif);
+}
  
  #poppy {
  --govor: #ff8376; --ikona: #ff8376; --ozadje: url(https://shrani.si/f/27/NA/38XuAoc3/ezgif-2-7cd626593953.gif);
+  } 
   
  #bea {
  --govor: #acd454; --ikona: #acd454; --ozadje: url(https://shrani.si/f/3q/ek/MVNZlFL/68747470733a2f2f73332e61.gif);
+  } 
 
   
 #nora {
  --govor: #a879ae; --ikona: #a879ae; --ozadje: url(https://shrani.si/f/2Z/c8/njU3OyZ/noragif.gif);
+} 
