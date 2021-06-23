@@ -1,5 +1,5 @@
 .ubox { 
-width:340px; 
+width:350px; 
 margin-top: -40px;
 margin-bottom: 30px;
 padding:30px;   
@@ -47,7 +47,7 @@ font-family: 'Poppins', sans-serif;
 color:#696969; 
 background-image: var(--ozadje); 
 opacity:0.45;
-width:360px; 
+width:370px; 
 padding: 20px 20px 5px; 
 margin-top: -30px;
 font-size:13px; 
@@ -84,3 +84,7 @@ line-height:270%;}
   
  #bea {
  --govor: #acd454; --ikona: #acd454; --ozadje: url(https://shrani.si/f/3q/ek/MVNZlFL/68747470733a2f2f73332e61.gif);
+
+  
+#nora {
+ --govor: #a879ae; --ikona: #a879ae; --ozadje: url(https://shrani.si/f/2Z/c8/njU3OyZ/noragif.gif);
