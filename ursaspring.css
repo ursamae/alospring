@@ -4,7 +4,7 @@ margin-top: -40px;
 margin-bottom: 30px;
 padding:30px;   
 background:#ffffff;  
-border-radius: 40px 40px 0px 0px; 
+border-radius: 10px 10px 0px 0px; 
 text-align:justify;  
 line-height:200%;} 
 
@@ -47,11 +47,11 @@ font-family: 'Poppins', sans-serif;
 color:#696969; 
 background-image: var(--ozadje); 
 opacity:0.45;
-width:340px; 
+width:360px; 
 padding: 20px 20px 5px; 
 margin-top: -30px;
 font-size:13px; 
-border-radius: 0px 0px 40px 40px; 
+border-radius: 0px 0px 10px 10px; 
 text-shadow: 1px 1px 1px #f2f2f2;}
 
  .class a.user-tagged { 
