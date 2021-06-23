@@ -1,11 +1,11 @@
 .uwrapper {
-width:380px;  
-margin-top: 30px;
-margin-bottom: 30px; }
+width:380px;   }
  
  
 .ubox { 
- width:380px;
+width:380px;
+ margin-top: -30px;
+margin-bottom: 30px;
 padding:30px; 
 background:#ffffff;  
 border-radius: 10px 10px 0px 0px; 
