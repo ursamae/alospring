@@ -1,11 +1,10 @@
 .ubox { 
-width:340px;
-margin-top: -30px;
+width:340px; 
+margin-top: -40px;
 margin-bottom: 30px;
-padding:30px; 
+padding:30px;   
 background:#ffffff;  
-border-radius: 10px 10px 0px 0px; 
-background:#ffffff;  
+border-radius: 40px 40px 0px 0px; 
 text-align:justify;  
 line-height:200%;} 
 
@@ -13,22 +12,25 @@ line-height:200%;}
 font-family: 'Poppins', sans-serif;
 color:#696969; 
 font-size:14.5px; 
-padding: 20px 20px 28px; } 
+padding: 40px 20px 20px; } 
 
 .uicon { 
- margin-top:40px; 
-float: center; 
 -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,1,1)), to(rgba(0,0,0,0))); 
 position:relative; 
 z-index:1;
 text-align:center; 
 color: var(--ikona); 
-font-size:90px; 
+font-size:80px; 
 text-shadow: 2px 2px #ececec;}   
 
-.t { 
-color: var(--glavna);  
+t { 
+color: var(--govor);  
 font-weight: bold;}  
+
+.uelement {  
+margin-top:20px; 
+float: center; 
+shape-outside: circle(50%);    }   
 
 .udate {
 font-family: 'Poppins', sans-serif;
@@ -44,12 +46,15 @@ margin-top:-15px; }
 font-family: 'Poppins', sans-serif;
 color:#696969; 
 background-image: var(--ozadje); 
-opacity:0.45;width:380px; padding: 20px 20px 5px; 
-margin-top: -30px;font-size:13px; 
-border-radius: 0px 0px 10px 10px; 
-text-shadow: 1px 1px 1px #f2f2f2;} 
+opacity:0.45;
+width:340px; 
+padding: 20px 20px 5px; 
+margin-top: -30px;
+font-size:13px; 
+border-radius: 0px 0px 40px 40px; 
+text-shadow: 1px 1px 1px #f2f2f2;}
 
-.class a.user-tagged { 
+ .class a.user-tagged { 
 font-family: 'Poppins', sans-serif; 
 font-style:bold; 
 font-size:11px; 
@@ -66,3 +71,13 @@ padding: 0px 20px 0px;
 margin-bottom:-10px; 
 text-align:left; 
 line-height:270%;}
+
+
+
+
+
+#freya {
+ 
+ --govor: #95B7F2;
+--ikona: #315587;
+    --ozadje: url(https://i.pinimg.com/originals/b8/9b/b3/b89bb307b9e35b5dde8e0f07d35ffa49.gif);
