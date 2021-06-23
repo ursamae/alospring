@@ -15,20 +15,20 @@ color:#696969;
 font-size:14.5px; 
 padding: 20px 20px 28px; } 
 
-.uficon { 
+.uicon { 
 -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,1,1)), to(rgba(0,0,0,0))); 
 position:relative; 
 z-index:1;
 text-align:center; 
-color: #315587; 
+color: var(--ikona); 
 font-size:90px; 
 text-shadow: 2px 2px #ececec;}   
 
-ft { 
-color: #95B7F2;  
+.t { 
+color: var(--glavna);  
 font-weight: bold;}  
 
-.ufelement {  
+.uelement {  
 margin-top:20px; 
 float: center; 
 shape-outside: circle(50%) }   
@@ -46,7 +46,7 @@ margin-top:-15px; }
 .ugifbottom { 
 font-family: 'Poppins', sans-serif;
 color:#696969; 
-background-image: url("https://i.pinimg.com/originals/b8/9b/b3/b89bb307b9e35b5dde8e0f07d35ffa49.gif"); 
+background-image: var(--ozadje); 
 opacity:0.45;width:380px; padding: 20px 20px 5px; 
 margin-top: -30px;font-size:13px; 
 border-radius: 0px 0px 10px 10px; 
@@ -69,3 +69,15 @@ padding: 0px 20px 0px;
 margin-bottom:-10px; 
 text-align:left; 
 line-height:270%;}
+
+
+
+
+
+
+
+#freya { 
+--glavna: #95B7F2; 
+--ikona: #315587;
+ --ozadje: url(https://i.pinimg.com/originals/b8/9b/b3/b89bb307b9e35b5dde8e0f07d35ffa49.gif);
+  } 
